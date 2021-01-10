@@ -1,0 +1,14 @@
+.header__logo-container{
+  margin: 0;
+  max-width: 176px;
+  min-width: 142px;
+  max-height: 52px;
+  min-width: 42px;
+}
+@media screen and (max-width: 320px) {
+  /* стили для смартфона */
+  .header__logo-container{
+    width: 142px;
+    height: 42px;
+  }
+}
