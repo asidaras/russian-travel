@@ -1,5 +1,6 @@
 .places__link{
   margin: 0;
+  margin-top: 12px;
   padding: 0;
   font-style: normal;
   font-weight: normal;
@@ -7,4 +8,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: white;
+}
+.places__link:hover{
+  cursor: pointer;
 }

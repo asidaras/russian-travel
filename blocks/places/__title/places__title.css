@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   max-width: 460px;
+  min-width: 440px;
   font-weight: bold;
   font-style: normal;
   font-size: 72px;

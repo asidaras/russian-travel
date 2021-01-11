@@ -1,0 +1,15 @@
+.cover{
+  position: relative;
+  margin: 0;
+  margin: auto;
+  margin-top: 92px;
+  max-width: 1184px;
+  min-width: 320px;
+  max-height: 740px;
+  min-height: 200px;
+  height: calc(100vw/1.6); /*Расчёт высоты блока через соотношение сторон фона*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
