@@ -1,0 +1,12 @@
+.footer__links-area{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 660px) {
+    /* стили для смартфона */
+  .footer__links-area{
+    flex-direction: column;
+  }
+}

@@ -8,3 +8,10 @@
   min-height: 320px;
   align-self: flex-start;
 }
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+  .places__image-container{
+    max-width: 340px;
+    max-height: 340px;
+  }
+}

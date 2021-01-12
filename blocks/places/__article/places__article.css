@@ -8,3 +8,17 @@
   max-width: 484px;
   min-width: 288px;
 }
+@media screen and (max-width: 720px) {
+    /* стили для планшета */
+  .places__article{
+    margin-top: 32px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 340px) {
+    /* стили для смартфона */
+  .places__article{
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
