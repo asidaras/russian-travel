@@ -3,7 +3,7 @@
   max-width: 176px;
   min-width: 142px;
   max-height: 52px;
-  min-width: 42px;
+  min-height: 42px;
 }
 @media screen and (max-width: 320px) {
   /* стили для смартфона */
