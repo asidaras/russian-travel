@@ -10,3 +10,6 @@
 + Макет в Figma и работа с макетом
 + Ветвление в Git
 + Deploy проекта
+
+## Ссылка на проект в GH-Pages
+https://antonsidaras.github.io/russian-travel/
