@@ -3,8 +3,20 @@
   margin: auto;
   margin-top: 56px;
   max-width: 984px;
+  padding: 0 48px 0 48px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .lead{
+    max-width: 928px;
+    margin-top: 48px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .lead{
+    padding: 0;
+  }
 }
