@@ -1,25 +1,11 @@
 .places__website{
   margin: 0;
-  margin-left: 40px;
   padding: 0;
   max-width: 456px;
+  min-width: 288px;
   min-height: 46px;
   align-self: end;
   display: flex;
   flex-direction: column;
   align-content: space-between;
-}
-@media screen and (max-width: 720px) {
-    /* стили для планшета */
-  .places__website{
-    margin-top: 32px;
-    margin-left: 0;
-  }
-}
-@media screen and (max-width: 340px) {
-    /* стили для смартфона */
-  .places__website{
-    margin-right: 16px;
-    margin-left: 16px;
-  }
 }

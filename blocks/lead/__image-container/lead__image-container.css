@@ -5,6 +5,12 @@
   min-width: 320px;
   align-self: stretch;
 }
+@media screen and (max-width: 1024px) {
+    /* стили для смартфона */
+  .lead__image-container{
+    margin-top: 56px;
+  }
+}
 @media screen and (max-width: 320px) {
     /* стили для смартфона */
   .lead__image-container{
