@@ -1,6 +1,7 @@
 .places__place{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /*grid-template-columns: repeat(2, 1fr);*/
+  grid-template-columns: 1fr 1.035fr;
   grid-gap: 48px 40px;
   align-content: flex-start;
 }
