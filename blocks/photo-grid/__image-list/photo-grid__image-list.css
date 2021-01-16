@@ -18,6 +18,7 @@
   .photo-grid__image-list{
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }
 @media screen and (max-width: 320px) {
