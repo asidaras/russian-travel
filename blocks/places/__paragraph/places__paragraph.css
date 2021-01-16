@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 29.34px;
+  line-height: 29px;
   color: white;
 }
 .places__paragraph:last-child{
@@ -20,6 +20,6 @@
   .places__paragraph{
     margin-bottom: 25px;
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 163%;
   }
 }
