@@ -1,39 +1,14 @@
 .cover{
-  position: relative;
   margin: 0;
-  margin: auto;
   margin-top: 92px;
-  max-width: 1184px;
-  min-width: 320px;
-  max-height: 740px;
-  min-height: 200px;
-  height: calc(100vw/1.6); /*Расчёт высоты блока через соотношение сторон фона*/
+  padding: 0 48px 0 48px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-@media screen and (width: 1280px) {
+@media screen and (max-width: 1024px) {
   .cover{
-    width: 1184px;
-    height: 740px;
-  }
-}
-@media screen and (width: 1024px) {
-  .cover{
-    width: 1024px;
-    height: 640px;
-  }
-}
-@media screen and (width: 768px) {
-  .cover{
-    width: 768px;
-    height: 480px;
-  }
-}
-@media screen and (width: 320px) {
-  .cover{
-    width: 320px;
-    height: 200px;
+    padding: 0;
   }
 }

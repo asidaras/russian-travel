@@ -20,7 +20,7 @@
     max-height: 340px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     /* стили для планшета */
   .places__image{
     max-width: 320px;

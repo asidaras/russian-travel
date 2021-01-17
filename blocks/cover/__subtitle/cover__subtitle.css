@@ -14,7 +14,7 @@
   color: white;
   z-index: 1;
 }
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 600px) {
     /* стили для смартфона */
   .cover__subtitle{
     width: 288px;
