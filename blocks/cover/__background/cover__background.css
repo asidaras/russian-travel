@@ -1,6 +1,8 @@
 .cover__background{
+  position: relative;
+  max-width: 1184px;
   width: 100%;
-  height: 100%;
+  height: calc(100vw/1.6); /*Расчёт высоты блока через соотношение сторон фона*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,4 +14,9 @@
 }
 .cover__background:hover{
   cursor: pointer;
+}
+@media screen and (min-width: 1026px) {
+  .cover{
+    height: calc(100vw/1.735); /*Расчёт высоты блока через соотношение сторон фона + padding*/
+  }
 }

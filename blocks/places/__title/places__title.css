@@ -21,7 +21,7 @@
 }
 @media screen and (max-width: 768px) {
   .places__title{
-    width: 340px;
+    max-width: 340px;
   }
 }
 @media screen and (max-width: 600px) {

@@ -17,3 +17,9 @@
     padding-left: 24px;
   }
 }
+@media screen and (max-width: 600px) {
+  /* стили для смартфона */
+  .lead__caption{
+    padding-left: 16px;
+  }
+}
