@@ -17,6 +17,7 @@
 }
 @media screen and (min-width: 1026px) {
   .cover{
+    max-height: 740px;
     height: calc(100vw/1.735); /*Расчёт высоты блока через соотношение сторон фона + padding*/
   }
 }
